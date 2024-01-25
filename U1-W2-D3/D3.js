@@ -247,7 +247,7 @@ console.log(charactersNames);
 
 function starWarsCharactersPresentation(){
   let min = 0;
-let max = 10;
+let max = starWarsCharacters.length;
 let randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
   
 
