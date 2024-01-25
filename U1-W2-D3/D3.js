@@ -232,7 +232,7 @@ console.log(charactersNames);
 
 for (let i = 0; i < charactersNames.length; i++) {
   if (charactersNames[i] === femaleCharacters[0].name || charactersNames[i] === femaleCharacters[1].name) {
-    delete charactersNames[i]
+    charactersNames.splice(i, 1)
   }
   
 }
