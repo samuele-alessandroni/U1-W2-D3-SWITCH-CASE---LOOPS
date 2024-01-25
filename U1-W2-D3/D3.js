@@ -254,7 +254,7 @@ let randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
   console.log("Hi, I'm",starWarsCharacters[randomNumber].name, "I'm ",starWarsCharacters[randomNumber].height, "all and my weight is ",starWarsCharacters[randomNumber].mass, ". The color of my hair is ",starWarsCharacters[randomNumber].hair_color, ", while that of my eyes is ",starWarsCharacters[randomNumber].eye_color, " and that of my skin is ",starWarsCharacters[randomNumber].skin_color, ". My birthday is the ",starWarsCharacters[randomNumber].birth_year, " and my gender is ",starWarsCharacters[randomNumber].gender, ".");
 }
 
-console.log(starWarsCharactersPresentation());
+starWarsCharactersPresentation()
 
 
 
